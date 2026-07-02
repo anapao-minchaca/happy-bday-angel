@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para Ángel 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="desk">
+    <section class="intro" id="intro">
+      <img class="cover-sticker sticker-img" src="assets/stickers/the-office.png" alt="">
+      <h1>Feliz cumpleaños</h1>
+      <h2>Ángel <3</h2>
+      <p>Para celebrar a una de mis personas favoritas. 🤍</p>
+      <button class="primary-btn" id="openBtn">Descubre la sorpresa!!</button>
+    </section>
+
+    <section class="scrapbook hidden" id="scrapbook">
+      <button class="nav-btn" id="prevBtn">‹</button>
+      <div class="book">
+        <article class="page left-page" id="leftPage"></article>
+        <article class="page right-page" id="rightPage"></article>
+      </div>
+      <button class="nav-btn" id="nextBtn">›</button>
+    </section>
+
+    <div class="toast hidden" id="toast"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/audio/concerning-hobbits.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
